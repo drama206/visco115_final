@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yūsuke Nakamura | Principle - Balance</title>
+    <link rel="StyleSheet" type="text/css" href="css/stylesheet.css">
+    <link rel="StyleSheet" type="text/css" href="css/modal_gallery.css">
+    <link rel="icon" type="image/jpg" href="images/layout_bg/icon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+</head>
+<body id="wrapper">
+   	 <header>
+         <h1>Yūsuke Nakamura</h1>
+              <div class="header_buttons">
+                    <ul class="header_buttons">
+                   	<a href="index.html" class="btnIndex">Homepage</a>
+	                <a href="bio.html" class="btnBio">Biography</a>
+	                <a href="e_list.html" class="btnElements">Elements</a>
+	                <a href="p_list.html" class="btnPrinciples">Principles</a>
+                </ul>
+                </div>
+    </header>
+   	 <main>
+		 <h1 class="p_bal_h1">BALANCE - "... Provides stability and structure..."</h1>
+   	     
+   	            <div class="row">
+                  <div class="column">
+                    <img src="images/principles/principle_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="images/principles/principle_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="images/principles/principle_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                  </div>
+                </div>
+
+                <div id="myModal" class="modal">
+                  <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <div class="modal-content">
+
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 3</div>
+                        <img src="images/principles/principle_1.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 3</div>
+                        <img src="images/principles/principle_2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 3</div>
+                        <img src="images/principles/principle_3.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                      <p id="caption"></p>
+                    </div>
+
+                      <img class="demo" src="images/principles/principle_1.jpg" onclick="currentSlide(1)" alt="Cover art for  the first Blu-Ray volume of <i>The Tatami Galaxy</i>.">
+                    <div class="column">
+                    </div>
+
+                    <div class="column">
+                      <img class="demo" src="images/principles/principle_2.jpg" onclick="currentSlide(2)" alt="Cover for the Asian Kung-Fu Gen. album, <i>Feedback File 2.</i>">
+                    </div>
+
+                    <div class="column">
+                      <img class="demo" src="images/principles/principle_3.jpg" onclick="currentSlide(3)" alt="Cover art for  the fourth Blu-Ray volume of <i>The Tatami Galaxy</i>.">
+                    </div>
+
+                  </div>
+                </div>
+
+                <script>
+                function openModal() {
+                  document.getElementById('myModal').style.display = "block";
+                }
+
+                function closeModal() {
+                  document.getElementById('myModal').style.display = "none";
+                }
+
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("demo");
+                  var captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
+   	     
+   	    <!--<a class="balance" href="#Balance_1">
+        <img src="images/principles/principle_1.jpg"/>
+        </a> 
+      <div class="balance-target" id="Balance_1">
+        <img src="images/principles/principle_1.jpg"/>
+          <a class="balance-close" href="#"></a>
+      </div>
+      
+      <a class="color" href="#Balance_2">
+        <img src="images/principles/principle_2.jpg">
+        </a> 
+      <div class="balance-target" id="Balance_2">
+        <img src="images/principles/principle_2.jpg"/>
+          <a class="balance-close" href="#"></a>
+      </div>
+      
+      <a class="color" href="#Balance_3">
+        <img src="images/principles/principle_3.jpg">
+        </a> 
+      <div class="balance-target" id="Balance_3">
+        <img src="images/principles/principle_3.jpg"/>
+          <a class="balance-close" href="#"></a>
+      </div> -->
+      
+   	 </main>
+   	 <footer>
+   	 <div class="three_col_ep">
+   		 <ul>
+   		 	 <br>
+   		 	 <br>
+			 <a href="index.html"><li style="font-size:48px; color:greenyellow; text-decoration: none">Home</li></a>
+   			 <br>
+			 <li>----------------------------------------</li>
+   			 <br>
+			 <a href="bio.html"><li style="font-size:48px; color:greenyellow; text-decoration: none">Bio</li></a>
+   		 </ul>
+  		 </div>
+   		 <div class="three_col_ep">
+   			 <ul>
+				 <a href="e_list.html"><li style="font-size:24px; color: greenyellow">Elements</li></a>
+   				 <ul>
+					 <li>---------------------------------</li>
+   					 <li>Line</li>
+   					 <li>Shape</li>
+   					 <li>Direction</li>
+   					 <li>Size</li>
+   					 <li>Texture</li>
+					 <a href="e_color.html"><li style="color: greenyellow"><strong>Color</strong></li></a>
+   					 <li>Value</li>
+   					 </ul>
+   			 </ul>
+   		 </div>
+   	 <div class="three_col_ep">
+   	      <ul>
+			  <a href="p_list.html"><li style="font-size:24px; color: greenyellow">Principles</li></a>
+   			   <ul>
+   			   <li>---------------------------------</li>
+				   <a href="p_bal.html"><li style="color: greenyellow"><strong>Balance</strong></li></a>
+   			   <li>Proximity</li>
+   			   <li>Alignment</li>
+   			   <li>Repetition</li>
+   			   <li>Contrast</li>
+   			   <li>Space</li>
+			  </ul>
+   		 </ul>
+   	 </div>
+   	 <p class="footer_copyright">&copy; 2017 | <a href="https://lineblog.me/yusuke_nakamura/" target="_blank";>中村佑介(Yūsuke Nakamura)</a></p>
+	</footer>
+</body>
+</html>

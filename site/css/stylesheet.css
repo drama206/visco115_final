@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+    padding-top: 10px;
+    padding-right: 30px;
+}
+ 
+#wrapper {
+	width: 1000px;
+    height: 1000px;
+    background-image: url("../images/layout_bg/bg_1.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+a {
+text-decoration: none;
+    target="_blank";
+}
+header {
+    height: 145px;
+    font-size: 20px;    
+    text-shadow:  
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    border-bottom: 10px groove orange;
+    border-radius: 60px;
+} 
+header h1 {
+	font-family: 'Asap', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 5px;
+	color: rgb(173, 255, 47);
+	text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+    letter-spacing: 0px;
+	background-color: rgba(59,85,217,0.58);
+	border-radius: 50px;
+	margin-top: 0px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-bottom: 21px;
+    border: dotted azure;
+}
+
+/**************************************************************/
+
+.header_buttons{
+    list-style: none;
+    text-transform: uppercase;
+    display:inline-block;
+    padding-right: 10px;
+}
+.btnIndex {
+    font-family: Tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+	background-color: rgba(59,85,217,0.8);
+	color: aliceblue;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
+    margin-right: 75px;
+	margin-left: -17px;
+	border: 10px;
+	border-style: double;
+	border-radius: 50px;
+}.btnIndex:hover {
+	background-color: rgba(242, 209, 70, 0.8);
+	border-radius: 50px;
+}
+.btnBio {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+	background-color: rgba(59,85,217,0.8);
+	color: aliceblue;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
+    margin-right: 75px;
+	margin-left: -20px;
+	border: 10px;
+	border-style: double;
+	border-radius: 50px;
+}.btnBio:hover {
+	background-color: rgba(242, 209, 70, 0.8);
+	border-radius: 50px;
+}.btnElements {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+	background-color: rgba(59,85,217,0.8);
+	color: aliceblue;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
+    margin-right: 55px;
+	margin-left: -20px;
+	border: 10px;
+	border-style: double;
+	border-radius: 50px;
+}.btnElements:hover {
+	background-color: rgba(242, 209, 70, 0.8);
+	border-radius: 50px;
+}.btnPrinciples {
+font-family: Tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+	background-color: rgba(59,85,217,0.8);
+	color: aliceblue;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
+    margin-right: 0px;
+	margin-left: 0px;
+	border: 10px;
+	border-style: double;
+	border-radius: 50px;
+}.btnPrinciples:hover {
+	background-color: rgba(242, 209, 70, 0.8);
+	border-radius: 50px;
+}
+
+/**************************************************************/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+main {
+	height: 390px;
+}
+.biopic {
+	float: left;
+	margin-left: 86px;
+	padding-top: 55px;
+	margin-top: 13px;
+	padding-left: 0px;
+	padding-right: 23px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 477px;
+	border-top-right-radius: 66px;
+}
+.bio_h1 {
+	font-size: 32px;
+    font-family: 'Asap', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 8px;
+	color: azure;
+	text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+	letter-spacing: 0px;
+	background-color: rgba(34, 34, 27, 0.8);
+	padding-left: 10px;
+	padding-bottom: 8px;
+	padding-right: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: -13px;
+    margin-bottom: 8px;
+	border-radius: 77px;
+    border: dotted;
+}
+.main_bio_p {
+	font-size: 20px;
+    font-family: 'Asap', sans-serif;
+	word-spacing: 1px;
+    color: azure;
+	text-shadow: 0px 0px 10px rgb(255, 167, 0);
+	background-color: rgba(59,85,217,0.80);
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 50px;
+    border: azure dotted;
+    text-align: left;
+}
+main p {
+	font-size: 20px;
+    font-family: 'Asap', sans-serif;
+	word-spacing: 1px;
+    color: greenyellow;
+	text-shadow: 0px 0px 10px rgb(255, 167, 0);
+	background-color: rgba(59,85,217,0.80);
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 50px;
+    border: azure dotted;
+    text-align: center;
+}
+.e_row{
+    align-content: center;
+}
+.e_row_pic {
+	padding-top: 2px;
+    margin:-5px;
+    background-color: rgba(85, 43, 43, 0.81);
+    margin-top: 50px;
+    border-radius: 50px;
+    border: cyan dotted;
+}.e_row_pic:hover {
+    content: url(../images/elements/element_list_row_jp.png);
+    border: cyan dotted;
+}
+.e_color_h1 {
+	float:left;
+	font-size: 32px;
+    font-family: 'Asap', sans-serif;
+	padding-top: 10px;
+	color: azure;
+	text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+	letter-spacing: 0px;
+	background-color: rgba(217, 59, 59, 0.8);
+	padding-left: 66px;
+	padding-bottom: 10px;
+	padding-right: 66px;
+	margin-top: 40px;
+    margin-left: 155px;
+    margin-bottom: 30px;
+	border-radius: 77px;
+    border: dotted;
+}
+.p_row{
+    align-content: center;
+}
+.p_row_pic {
+	padding-top: 2px;
+    margin:-5px;
+    background-color: rgba(1, 27, 100, 0.68);
+    margin-top: 50px;
+    border-radius: 50px;
+    border: azure dotted;
+}.p_row_pic:hover {
+    content: url(../images/principles/principle_list_row_jp.png);
+    border: azure dotted;
+}
+.p_bal_h1{
+    float:left;
+	font-size: 32px;
+    font-family: 'Asap', sans-serif;
+	padding-top: 10px;
+	color: azure;
+	text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+	letter-spacing: 0px;
+	background-color: rgba(59,85,217,0.8);
+	padding-left: 66px;
+	padding-bottom: 10px;
+	padding-right: 66px;
+	margin-top: 40px;
+    margin-left: 98px;
+    margin-bottom: 30px;
+	border-radius: 77px;
+    border: dotted;
+}
+
+/**************************************************************/
+
+.three_col {
+	text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+	color: antiquewhite;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	width: 242px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 259px;
+	border: dotted;
+	margin: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 100px;
+	text-align: center;
+	text-transform: none;
+	background-color: rgba(59,85,217,0.58);
+	margin-top: 188px;
+}
+.three_col ul {
+	list-style-type: none;
+	font-weight: bold;
+	padding-left: 0px;
+}
+.three_col ul ul {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.three_col_ep {
+	text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+	color: antiquewhite;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	width: 242px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 259px;
+	border: dotted;
+	margin: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 100px;
+	text-align: center;
+	text-transform: none;
+	background-color: rgba(59,85,217,0.58);
+	margin-top: 188px;
+}
+.three_col_ep ul {
+	list-style-type: none;
+	font-weight: bold;
+	padding-left: 0px;
+}
+.three_col_ep ul ul {
+	font-weight: normal;
+	font-size: 20px;
+}
+.footer_copyright {
+    float:left;
+    font-family: 'Asap', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: azure;
+    text-shadow: 0px 0px 10px rgba(25, 203, 203, 0.79);
+    background-color: rgba(59,85,217,0.58);
+	padding: 10px;
+    margin-left: 330px;
+    margin-top: -10px;
+	border-radius: 77px;
+    border: azure dotted;
+}
+footer a{
+    color:greenyellow;
+    target="_blank";
+}
